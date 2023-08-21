@@ -1,0 +1,290 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:debug:20170905'
+        path: karma > socket.io > socket.io-adapter > socket.io-parser > debug
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: karma > dom-serialize > extend
+    - '@angular/cli > less > request > extend':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > less > request > extend'
+    - protractor > webdriver-manager > request > extend:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: protractor > webdriver-manager > request > extend
+    - '@angular/cli > node-sass > request > extend':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > node-sass > request > extend'
+    - protractor > saucelabs > https-proxy-agent > extend:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: protractor > saucelabs > https-proxy-agent > extend
+    - '@angular/cli > node-sass > node-gyp > request > extend':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: '@angular/cli > node-sass > node-gyp > request > extend'
+    - protractor > saucelabs > https-proxy-agent > agent-base > extend:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:extend:20180424'
+        path: protractor > saucelabs > https-proxy-agent > agent-base > extend
+  'npm:hoek:20180212':
+    - protractor > webdriver-manager > request > hawk > hoek:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: protractor > webdriver-manager > request > hawk > hoek
+    - '@angular/cli > node-sass > request > hawk > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > request > hawk > hoek'
+    - protractor > webdriver-manager > request > hawk > boom > hoek:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: protractor > webdriver-manager > request > hawk > boom > hoek
+    - '@angular/cli > node-sass > request > hawk > boom > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > request > hawk > boom > hoek'
+    - protractor > webdriver-manager > request > hawk > sntp > hoek:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: protractor > webdriver-manager > request > hawk > sntp > hoek
+    - '@angular/cli > node-sass > request > hawk > sntp > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > request > hawk > sntp > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > hoek'
+    - protractor > webdriver-manager > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          protractor > webdriver-manager > request > hawk > cryptiles > boom >
+          hoek
+    - '@angular/cli > node-sass > request > hawk > cryptiles > boom > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > request > hawk > cryptiles > boom > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > boom > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > boom > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > sntp > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: '@angular/cli > node-sass > node-gyp > request > hawk > sntp > hoek'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @angular/cli > node-sass > node-gyp > request > hawk > cryptiles >
+          boom > hoek
+  SNYK-JS-LODASH-567746:
+    - '@angular/cli > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > lodash'
+    - '@angular/cli > copy-webpack-plugin > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > copy-webpack-plugin > lodash'
+    - '@angular/cli > html-webpack-plugin > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > html-webpack-plugin > lodash'
+    - '@angular/cli > webpack-merge > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > webpack-merge > lodash'
+    - karma > combine-lists > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: karma > combine-lists > lodash
+    - '@angular/cli > extract-text-webpack-plugin > async > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > extract-text-webpack-plugin > async > lodash'
+    - '@angular/cli > sass-loader > async > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > sass-loader > async > lodash'
+    - '@angular/cli > source-map-loader > async > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > source-map-loader > async > lodash'
+    - '@angular/cli > webpack > async > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > webpack > async > lodash'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: karma-coverage-istanbul-reporter > istanbul-api > async > lodash
+    - '@angular/cli > node-sass > sass-graph > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > node-sass > sass-graph > lodash'
+    - '@angular/cli > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > webpack-dev-server > http-proxy-middleware > lodash'
+    - '@angular/cli > webpack > watchpack > async > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > webpack > watchpack > async > lodash'
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-types > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-types > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-generator > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-generator > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-traverse > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-traverse > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-template > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-template > lodash
+    - '@angular/cli > node-sass > gaze > globule > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@angular/cli > node-sass > gaze > globule > lodash'
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-generator > babel-types > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-generator > babel-types > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-traverse > babel-types > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-traverse > babel-types > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-template > babel-types > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-template > babel-types > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-template > babel-traverse > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-template > babel-traverse > lodash
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument
+          > babel-template > babel-traverse > babel-types > lodash
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          karma-coverage-istanbul-reporter > istanbul-api >
+          istanbul-lib-instrument > babel-template > babel-traverse >
+          babel-types > lodash
+  'npm:ms:20170412':
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:ms:20170412'
+        path: karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms
+  'npm:stringstream:20180511':
+    - '@angular/cli > less > request > stringstream':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > less > request > stringstream'
+    - protractor > webdriver-manager > request > stringstream:
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:stringstream:20180511'
+        path: protractor > webdriver-manager > request > stringstream
+    - '@angular/cli > node-sass > request > stringstream':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > node-sass > request > stringstream'
+    - '@angular/cli > node-sass > node-gyp > request > stringstream':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:stringstream:20180511'
+        path: '@angular/cli > node-sass > node-gyp > request > stringstream'
+  SNYK-JS-TREEKILL-536781:
+    - '@angular/cli > @ngtools/webpack > tree-kill':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: SNYK-JS-TREEKILL-536781
+        path: '@angular/cli > @ngtools/webpack > tree-kill'
+  'npm:tunnel-agent:20170305':
+    - '@angular/cli > node-sass > request > tunnel-agent':
+        patched: '2023-08-21T06:54:48.509Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: '@angular/cli > node-sass > request > tunnel-agent'
