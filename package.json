@@ -48,7 +48,7 @@
     "@snyk/protect": "1.1207.0"
   },
   "devDependencies": {
-    "@angular/cli": "14.2.12",
+    "@angular/cli": "16.2.2",
 
     "@angular/compiler-cli": "^16.2.4",
 
