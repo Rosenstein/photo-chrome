@@ -49,14 +49,9 @@
   },
   "devDependencies": {
     "@angular/cli": "16.2.2",
-
     "@angular/compiler-cli": "^16.2.4",
-
-
-
     "@angular/language-service": "^16.2.4",
-
-    "@types/fabric": "^1.5.27",
+    "@types/fabric": "^5.3.3",
     "@types/jasmine": "~4.3.5",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~20.5.9",
