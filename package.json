@@ -44,7 +44,7 @@
     "hammerjs": "^2.0.8",
     "ngx-color-picker": "^15.0.0",
     "rxjs": "^7.8.1",
-    "zone.js": "^0.8.14",
+    "zone.js": "^0.14.0",
     "@snyk/protect": "1.1207.0"
   },
   "devDependencies": {
