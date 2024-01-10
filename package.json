@@ -45,7 +45,7 @@
     "ngx-color-picker": "^15.0.0",
     "rxjs": "^7.8.1",
     "zone.js": "^0.14.0",
-    "@snyk/protect": "1.1236.0"
+    "@snyk/protect": "1.1266.0"
   },
   "devDependencies": {
     "@angular/cli": "17.0.0",
