@@ -54,7 +54,7 @@
     "@types/fabric": "^5.3.3",
     "@types/jasmine": "~5.1.4",
     "@types/jasminewd2": "~2.0.2",
-    "@types/node": "~20.12.4",
+    "@types/node": "~22.5.4",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~5.1.1",
     "jasmine-spec-reporter": "~4.1.0",
